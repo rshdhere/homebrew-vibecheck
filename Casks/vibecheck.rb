@@ -3,7 +3,7 @@ cask "vibecheck" do
   name "vibecheck"
   desc "🌊 Vibecheck — AI-powered Git commit assistant."
   homepage "https://github.com/rshdhere/vibecheck"
-  version "1.4.4"
+  version "1.5.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "vibecheck" do
     on_intel do
       url "https://github.com/rshdhere/vibecheck/releases/download/v#{version}/vibecheck_Darwin_x86_64.tar.gz",
         verified: "github.com/rshdhere/vibecheck"
-      sha256 "b86034b935d06851ffdf4b8a2b94c369a2ab0f0ae92acb8a51820d985e73555c"
+      sha256 "cd26f3ca2fcf3f9ffc9087f5051fc6b7deff83f6e98226fa39258bae95d74ab0"
     end
     on_arm do
       url "https://github.com/rshdhere/vibecheck/releases/download/v#{version}/vibecheck_Darwin_arm64.tar.gz",
         verified: "github.com/rshdhere/vibecheck"
-      sha256 "2db8bd378716de001df706efa58dfe43221cb849c22e3db1f935bef935593a46"
+      sha256 "ebd44b8028a2e141eba5df2515b7040c1647d09f6091d8aac722878dd6e197b5"
     end
   end
 
@@ -28,12 +28,12 @@ cask "vibecheck" do
     on_intel do
       url "https://github.com/rshdhere/vibecheck/releases/download/v#{version}/vibecheck_Linux_x86_64.tar.gz",
         verified: "github.com/rshdhere/vibecheck"
-      sha256 "8cffe49e2eff6d48bc00d13c9beca8c29c946c537fd58324d87bc79b61a7c73b"
+      sha256 "6da1e304a34e0d71f7e48da5b026e3bb20c63e2b5eaae3899a3e77ede367a379"
     end
     on_arm do
       url "https://github.com/rshdhere/vibecheck/releases/download/v#{version}/vibecheck_Linux_arm64.tar.gz",
         verified: "github.com/rshdhere/vibecheck"
-      sha256 "84187f6d0e2c032c7e3a87ef495e3f763827cef931affecdd99acba4b22797f7"
+      sha256 "c7ca0686c661c49322fdde7e569c6e407fbdeda6ca4ec0492a2e85be4f3548be"
     end
   end
 
